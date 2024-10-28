@@ -31,7 +31,6 @@ with open('diabete_cot.json', 'r', encoding='utf-8') as file:
     articles = [json.loads(line) for line in file]
     
 
-
 with open("data1.csv", "w", newline='') as file:
     data=["item0","title1","title2","title3","title4","title5","title6","item1_title","item1","if_find"]
     writer = csv.writer(file,delimiter='|')
