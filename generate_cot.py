@@ -1,7 +1,7 @@
 import json
 import openai
-openai.api_base = "https://yeysai.com/v1"
-openai.api_key="sk-TmqNTUwMzp2RXHmG3d44868eD27247E4A0771bA203D8922d"
+openai.api_base = ""
+openai.api_key=""
 def chatgpt(messages):
         try:
             response = openai.ChatCompletion.create(
